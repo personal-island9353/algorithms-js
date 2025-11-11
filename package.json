@@ -1,0 +1,22 @@
+{
+  "name": "algorithms-js",
+  "version": "1.0.0",
+  "description": "Code to work along the Data Structures and Algorithms in JavaScript book from Feuderico Kereki",
+  "homepage": "https://github.com/personal-island9353/algorithms-js#readme",
+  "bugs": {
+    "url": "https://github.com/personal-island9353/algorithms-js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/personal-island9353/algorithms-js.git"
+  },
+  "license": "MIT",
+  "author": "personal-island9353",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test",
+    "test:watch": "node --watch --test"
+  }
+}
