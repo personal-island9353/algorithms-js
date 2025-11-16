@@ -4,13 +4,31 @@ Code to work along the Data Structures and Algorithms in JavaScript book from Fe
 
 # Getting started
 
-Simply run npm install to install all dependencies:
+- Setup nodejs:
+
+```shell
+nvm use
+```
+
+- Install dependencies:
 
 ```shell
 npm install
 ```
 
 # Useful commands
+
+## Format code
+
+```shell
+npm run format
+```
+
+## Lint code
+
+```shell
+npm run lint
+```
 
 ## Run tests
 
