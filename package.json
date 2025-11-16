@@ -13,10 +13,27 @@
   "license": "MIT",
   "author": "personal-island9353",
   "type": "module",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node src/index.js",
     "test": "node --test",
-    "test:watch": "node --watch --test"
+    "test:watch": "node --watch --test",
+    "format": "prettier . --write",
+    "prepare": "husky",
+    "lint": "eslint src/ --max-warnings 0",
+    "lint:fix": "eslint src/ --max-warnings 0 --fix"
+  },
+  "devDependencies": {
+    "@eslint/css": "^0.14.1",
+    "@eslint/js": "^9.39.1",
+    "@eslint/json": "^0.14.0",
+    "@eslint/markdown": "^7.5.1",
+    "eslint": "^9.39.1",
+    "globals": "^16.5.0",
+    "husky": "^9.1.7",
+    "prettier": "3.6.2"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
   }
 }

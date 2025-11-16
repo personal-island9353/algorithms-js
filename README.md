@@ -23,11 +23,3 @@ npm run test
 ```shell
 npm run test:watch
 ```
-
-# TODO
-
-* Setup
-    * eslint
-    * prettier
-    * husky
-    * typescript
